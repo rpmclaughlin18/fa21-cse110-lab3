@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-wiodth, initial-scale=1.0">
+        <title>Meeting Minutes</title>
+        <link rel="icon" href="/favicon.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <div>Startup Brainstorming Session</div>
+
+            <nav>
+                <ul>
+                    <li><a href="#attendance">Attendance</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#old_business">Old Business</a></li>
+                    <li><a href="#new_business">New Business</a></li>
+                    <li><a href="#recording">Recording</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <span>
+            <h1>Meeting Minutes</h1>
+            <h5>October 1st 2021</h5>
+
+            <div>
+            <h2 id="attendance">Attendance</h2>
+                <ol>
+                    <li><input type="checkbox">Adam A.</li>
+                    <li><input type="checkbox">Brielle B.</li>
+                    <li><input type="checkbox">Caroline C.</li>
+                    <li><input type="checkbox">David D.</li>
+                </ol>
+            </div>
+
+            <div>
+            <h2 id="agenda">Agenda</h2>
+                <ol>
+                    <li>Roll call</li>
+                    <li>Old Business</li>
+                    <li>New Business</li>
+                </ol>
+            </div>
+
+            <div>
+            <h2 id="old_business">Old Business</h2>
+                <p><strong>Adam A:</strong> No old business, first meeting.</p>
+
+                <p><strong>Brielle B:</strong> No old business, first meeting.</p>
+
+                <p><Strong>Caroline C:</Strong> No old business, first meeting.</p>
+
+                <p><Strong>David D:</Strong> No old business, first meeting.</p>
+            </div>
+
+            <div>
+            <h2 id="new_business">New Business</h2>
+                <p><strong>General:</strong> The team will be implementing a Pomedoro timer.</p>
+                <p><strong>Adam A:</strong> Will be acting as <b>Project Manager</b>. <br>Needs to set up team communications (intends on using <em>Slack</em> (download <a href="https://slack.com">here</a>) for team communications)</p>
+                <p><strong>Brielle B:</strong> Will be the team's <b>Frong End Engineer</b>. <br>Intends on using <em>React.js</em> (documentation <a href="https://reactjs.org/">here</a>) for front-end implementation.</p>
+                <p><strong>Caroline C:</strong> Will be the team's <b>Backend Engineer</b>. <br>Intends on using <em>java</em> and <em>javascript</em> to link the front end to the database</p>
+                <p><strong>David D:</strong> Will be maintaining the teams <b>Database</b>. <br>Not sure what tool to use yet, needs to be decided based off of available resources. <i>Blocked</i> until <strong>Adam A.</strong> can provide more information.</p>
+            </div>
+
+            <div>
+            <h2 id="recording">Recording</h2>
+            <video width="320" height="240" controls>
+                <source src="Lab1_Video.mov">
+            </video>
+            <br><br>
+            <audio controls>
+                <source src="Lab1_Audio.m4a">
+            </audio>
+            </div>
+            <br><br>
+            <details>
+                <summary>Meeting Summary</summary>
+                <p>This was the first meeting where we discussed team roles and set the ball rolling.</p>
+            </details>
+            </span>
+        </main>
+
+        <hr />
+
+        <footer>
+            <!--This is non functional for the form portion of the assignment-->
+            <h6>Subscribe to Company Newsletter</h6>
+
+            <form>
+                <fieldset>
+                    <label for="fname">First Name:</label>
+                    <input type="text" />
+                    <br><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="text" placeholder="Enter Email Address" />
+                    <br><br>
+                    <label for="id">Employee ID:</label>
+                    <input type="number" />
+                    <br><br>
+                    <label for="vaccinated">Vaccinated:</label>
+                    <input type="checkbox" />
+                    <br><br>
+                    <label for="date">Today's Date:</label>
+                    <input type="date" />
+                    <br><br>
+                    <label for="id">I don't know how to to implement radio in a funny way but heres the input type:</label>
+                    <input type="radio" />
+                    <br><br>
+                    <label for="fruitFav">Choose your favorite fruit:</label>
+                    <input list="fruits" id="fruitFav" name="fruitFav" />
+                    <datalist id="fruits">
+                        <option value="Apple"></option>
+                        <option value="Orange"></option>
+                        <option value="Ok now compare them"></option>
+                    </datalist>
+                    <br><br>
+                    <label for="dayOfWeek">Choose a day of the week:</label>
+                    <select name="dayOfWeek" id="dayOfWeek">
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday">Saturday</option>
+                        <option value="Sunday">Sunday</option>
+                    </select>
+                    <br><br>
+                    <label for="newsletter">How did we do?</label>
+                    <textarea id="newsletter" name="newsletter" rows="4" cols="50">This has got to be, hands down, the sexiest and most eye popping html page I have ever seen in my life. Someone give this kid a job I mean seriously, its beautiful.</textarea>
+                    <br><br>
+                    <button type="button">Submit</button>
+                </fieldset>
+                
+            </form>
+        </footer>
+    </body>
+</html>
