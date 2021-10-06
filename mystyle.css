@@ -1,0 +1,66 @@
+/* Adding comments to make my CSS easeir to read */
+h1 {
+    background-color: #ff7788;
+    font-size: 3em;
+    border-style: solid;
+    border-color: hsl(0, 0, 0);
+    border-width: 7px;
+    border-radius: 10mm;
+    display: block;
+    position: static;
+    font-family: RobotoMono-VariableFont_wght;
+}
+
+h2 {
+    color: orange;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 2rem;
+    display: inline-block;
+    position: relative;
+}
+
+h6 {
+    color: rgb(19, 81, 214);
+    font-size: 2ex;
+}
+
+ul,
+li {
+    margin-top: .25in;
+    padding-top: 5px;
+    display:flex;
+}
+
+ol,
+li {
+    margin: 10px;
+    padding: 5px;
+    display:grid;
+}
+
+p,
+strong {
+    margin: auto;
+}
+
+h1:hover {
+    background-color:rgb(19, 81, 214);
+}
+
+button:active {
+    background-color:aquamarine;
+}
+
+@media (min-width: 30em) {
+    h1 {
+        display: flex;
+    }
+}
+
+@font-face {
+    src:url(RobotoMono-VariableFont_wght.ttf);
+    font-family: RobotoMono-VariableFont_wght;
+    font-weight: normal;
+    font-style: normal;
+}
