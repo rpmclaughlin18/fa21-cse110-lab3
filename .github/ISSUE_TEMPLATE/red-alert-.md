@@ -1,8 +1,8 @@
 ---
 name: Red alert!
-about: Theres an issue that needs rectifying
-title: "[BUG]"
-labels: bug, cannot reproduce, delayed
+about: Theres stuff to do
+title: "[TO DO]"
+labels: TO DO
 assignees: ''
 
 ---
