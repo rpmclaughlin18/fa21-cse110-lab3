@@ -10,6 +10,29 @@ h1 {
     position: static;
     font-family: RobotoMono-VariableFont_wght;
 }
+.header {
+    background-color: #ff7788;
+}
+
+h1.header {
+    background-color: #ff7788;
+    font-size: 3em;
+    border-style: solid;
+    border-color: hsl(0, 0, 0);
+    border-width: 7px;
+    border-radius: 10mm;
+    display: block;
+    position: static;
+    font-family: RobotoMono-VariableFont_wght;
+}
+
+#topic {
+    color: orange;
+}
+
+a[class=header] {
+    color: green;
+}
 
 h2 {
     color: orange;
@@ -25,11 +48,23 @@ h6 {
     font-size: 2ex;
 }
 
+nav > ul {
+    color: white;
+}
+
+h2 + p {
+    font-size: 2rem;
+}
+
 ul,
 li {
     margin-top: .25in;
     padding-top: 5px;
     display:flex;
+}
+
+div ~ ol {
+    color:blueviolet;
 }
 
 ol,
@@ -42,6 +77,10 @@ li {
 p,
 strong {
     margin: auto;
+}
+
+li li {
+    color: tan;
 }
 
 h1:hover {
